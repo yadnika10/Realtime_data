@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+    flex-direction: column;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+}
+#realTimeChart{
+    color: black;
+}
+.mode{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.mode i{
+    font-size: 3rem;
+    cursor: pointer;
+}
